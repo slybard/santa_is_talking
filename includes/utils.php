@@ -11,6 +11,7 @@ $baseURL = "https://santa-slybard.c9users.io/";
 //REDIS
 $rediskey = "hellofromsanta";
 
+
 //send response
 function SendResponse($getresponse, $str = "Thank you. Goodbye!"){
     
@@ -39,8 +40,8 @@ function SetCallState($redis, $sessionid, $callernum, $callstate){
     $redis->expire($rediskey, 200);
     
     $redis->hmset($rediskey, [
-        "sessionId" => $sessioId,
-        "caller" => $callerNum,
+        "sessionId" => $sessionid,
+        "caller" => $callernum,
         "callstate" => $callstate]);
 }
 
