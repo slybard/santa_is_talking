@@ -6,7 +6,7 @@ $aitkey = "f955be572d3184e216acdd5d7d7e3b7211a94ec61581d994529951599cc57ae3";
 $aitnumber = "+256312319100";
 
 //base url
-$baseURL = "https://christmas-wishlist-slybard.c9users.io/";
+$baseURL = "https://santa-slybard.c9users.io/";
 
 //REDIS
 $rediskey = "hellofromsanta";
