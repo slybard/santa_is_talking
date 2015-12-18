@@ -9,6 +9,7 @@ $isCallActive = $_POST['isActive'];
 if ($isCallActive == 1 && $direction == "Inbound") {
     //hang up
     
+    
     //immediately call user back
 }
 
