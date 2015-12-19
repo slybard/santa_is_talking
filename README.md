@@ -1,7 +1,10 @@
 Santa Is Talking
 ====================
 This is an implementation of IVR using  [Africa's talking](https://www.africastalking.com/) API.
-So I will describe to you how to set up.
+
+How to set up
+----------------
+
 1. Clone the repository
 2. Create an account with [Africa's talking](https://account.africastalking.com/register)
 3. Install [Redis](http://redis.io) and [Predis](https://github.com/nrk/predis) You can read a [tutorial](http://www.sitepoint.com/an-introduction-to-redis-in-php-using-predis/)
