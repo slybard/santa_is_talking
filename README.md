@@ -1,30 +1,11 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, we have created a small hello world application.
-
-1) Open the hello-world.php file
-
-2) Follow the run instructions in the file's comments
-
-3) If you want to look at the Apache logs, check out ~/lib/apache2/log
-
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Santa Is Talking
+====================
+This is an implementation of IVR using  [Africa's talking](https://www.africastalking.com/) API.
+So I will describe to you how to set up.
+1. Clone the repository
+2. Create an account with [Africa's talking](https://account.africastalking.com/register)
+3. Install [Redis](http://redis.io) and [Predis](https://github.com/nrk/predis) You can read a [tutorial](http://www.sitepoint.com/an-introduction-to-redis-in-php-using-predis/)
+4. On your Africa's talking acccount, set your call back url to http://yoursever/santa.php
+5. Change `santa.php` around line 33  and add `https://yourserver/wishlist.php`
+6. Africa is talking will assign you a number that you can use. So change `includes/utils.php` and add your `aitusername`, `aitkey` and `aitnumber`
+6. So, to talk to santa, just call the number africa is talking gave you. He will call you back and you will get to tell him what you want for christmas
